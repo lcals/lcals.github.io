@@ -13,10 +13,10 @@ layout: home
 
 ## 杂项
 
-## 公共基础
+## 公共基础 
    
-   配置
-
+   [配置]({% link _posts/2023-05-29-game-bsea-config.markdown %})
+   
 ## 客户端
 
 ## 服务器
