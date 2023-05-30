@@ -28,4 +28,65 @@ categories: 公共基础 配置
   10 客户端，服务器共享配置，输出不同的语言绑定。
 
 ## 表设计
-  
+ 
+### 单条属性
+   
+   假设 有一个Item表
+
+   有 id 属性 定义为单条属性
+
+{% highlight csharp %}
+
+   public class Item
+   {
+
+       public int id;
+   
+   }
+{% endhighlight %}
+
+### 复合属性
+
+   假设 有一个Item表
+
+   有 价格 属性  价格1 价格2 价格3  定义为复合属性
+
+{% highlight csharp %}
+
+   public class Item
+   {
+
+       public list<int> price;
+   
+   }
+{% endhighlight %}
+
+### 引用属性
+ 
+   A表有个道具叫 奖励的复合属性
+
+   B表也需要这个结构 直接添加引用 属性
+
+  {% highlight csharp %}
+
+   public class A
+   {
+
+       public list<Reward> Reward;
+   
+   }
+
+   public class B
+   {
+
+       public list<Reward> Reward;
+   
+   }
+
+{% endhighlight %}
+
+
+
+## 使用
+
+ 提供一个工具，可以读取相同目录下的配置档，如果没有配置档就生成默认配置，并让使用者修改配置。工具可以读取 Excel 文件，并输出我们使用的配置文件，同时输出日志。  
