@@ -10,7 +10,7 @@ layout: home
 # 游戏架构
 
 ## 杂项
-
+   [语言选择]({% link _posts/2023-05-30-game-other-game-development-language.markdown %})
 ## 公共基础 
    
    [配置]({% link _posts/2023-05-29-game-bsea-config.markdown %})
