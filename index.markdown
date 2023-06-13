@@ -16,5 +16,5 @@ layout: home
    [配置]({% link _posts/2023-05-29-game-bsea-config.markdown %})
    
 ## 客户端
-
+   [事件]({% link _posts/2023-06-11-game-client-event.markdown %})
 ## 服务器
