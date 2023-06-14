@@ -16,5 +16,10 @@ layout: home
    [配置]({% link _posts/2023-05-29-game-bsea-config.markdown %})
    
 ## 客户端
+
    [事件]({% link _posts/2023-06-11-game-client-event.markdown %})
+
+   [虚拟文件系统]({% link _posts/2023-06-14-game-client-virtual-file-system.markdown %})
+
+   [任务系统]({% link _posts/2023-06-14-game-client-task-system.markdown %})
 ## 服务器
